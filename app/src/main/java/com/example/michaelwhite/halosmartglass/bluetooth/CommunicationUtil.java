@@ -20,7 +20,7 @@ public class CommunicationUtil {
         return sendSuccesful;
     }
 
-    public class ConnectBluetooth extends AsyncTask<Void, Void, Void> {
+    public static class ConnectBluetooth extends AsyncTask<Void, Void, Void> {
         private Communicator communicator;
         private BluetoothSocket socket;
         private String address;
