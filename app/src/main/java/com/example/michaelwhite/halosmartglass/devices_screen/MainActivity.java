@@ -1,4 +1,4 @@
-package com.example.michaelwhite.halosmartglass;
+package com.example.michaelwhite.halosmartglass.devices_screen;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.example.michaelwhite.halosmartglass.R;
 import com.example.michaelwhite.halosmartglass.bluetooth.DevicesUtil;
 
 public class MainActivity extends AppCompatActivity {
